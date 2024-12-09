@@ -10,7 +10,7 @@ import Stripe from 'stripe';
 const stripe = new Stripe("sk_test_51QKil0KTOKQxgt2KJydTdLXDMbSip8J0G4Y9sfUHhDF5cDOV9urgPgBPJP25qpu5BcUlKRxl5DpvraMLvcYWOsbZ00Lz5u0S8E");
 
 const placeOrder = async (req, res) => {
-  const frontend_url = 'http://localhost:5173'; // Corrected typo
+  const frontend_url = 'https://fooddel-front-end.vercel.app/'; // Corrected typo
 
   try {
     // Create a new order in the database
